@@ -1,0 +1,93 @@
+html {
+    background-color: #161616;
+    margin-left: 10px;
+}
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.solo-border {
+    border: 2px solid #C84B31;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    color: #C84B31;
+    font-size: 30px;
+    position: relative;
+} 
+
+h2 { 
+    font-family: 'Roboto Mono', monospace; 
+    color:#C84B31; 
+    font-size: 24px; 
+    position: relative; 
+}
+
+.text-links {
+    color: #ECDBBA;
+}
+
+p {
+    font-family: 'Source Code Pro', monospace;
+    color: #ECDBBA;
+}
+
+i {
+    background-color: #C84B31;
+    font-style: normal;
+    font-weight: 800; 
+}
+
+ul {
+    font-family: 'Roboto Mono', monospace;
+    overflow: hidden;
+    color: #C84B31;
+    list-style-type: none;
+}
+
+li a {
+    color: #ECDBBA;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #C84B31;;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+      font-size: 17px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    p {
+        font-size: 3vh;
+      }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .center {
+        float: left;
+        margin-right: 2px;
+        width: 95%;
+    }
+
+h1 { 
+    
+} 
